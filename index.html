@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Santiago Ariel Villanueva - Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+		<script type="text/javascript" src="index.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body class="theme-switch-color">
+		<script
+			type="text/javascript"
+			src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+		></script>
+		<header id="header-menu" data-theme="light">
+			<div title="My Portfolio" class="logo">
+				<h1><a href="#welcome-section">Portfolio.</a></h1>
+			</div>
+			<nav id="navbar" class="header-navbar">
+				<ul>
+					<li><a class="nav-link" href="#about">About</a></li>
+					<li><a class="nav-link" href="#skills">Skills</a></li>
+					<li><a class="nav-link" href="#projects">Projects</a></li>
+					<li><a class="nav-link" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<ul class="header-options">
+				<li class="lang-menu">
+					<div class="selected-lang">
+						En<span class="material-icons-outlined icons-center">
+							expand_more
+						</span>
+					</div>
+					<ul>
+						<li>
+							<a href="#" class="es">Es</a>
+						</li>
+						<li>
+							<a href="" class="en">En</a>
+						</li>
+					</ul>
+				</li>
+				<li class="theme-switch-wrapper">
+					<label class="theme-switch" for="checkbox">
+						<input
+							onclick="toggleDarkMode()"
+							type="checkbox"
+							id="checkbox"
+						/>
+						<div class="slider round"></div>
+					</label>
+				</li>
+			</ul>
+		</header>
+		<main data-theme="light">
+			<section id="welcome-section" class="hero-section">
+				<div class="hero-img">
+					<img
+						src="https://pngimg.com/uploads/man/man_PNG6531.png"
+						alt="User"
+					/>
+				</div>
+				<div class="hero-text">
+					<h1>Hey I am Santiago</h1>
+					<p>a web developer</p>
+					<a href="#contact" class="btn">Contact me</a>
+				</div>
+			</section>
+			<section id="about-section" class="about-section">
+				<div class="about-img">
+					<img
+						src="https://images.vexels.com/media/users/3/140759/isolated/preview/328ff48684eef92268d8e22b173925ac-hombre-de-dibujos-animados-pensando.png"
+						alt="User"
+					/>
+				</div>
+				<div id="about" class="about-info text-box">
+					<span class="subtitle">about me</span>
+					<h2>Need a Creative Product? I can Help You!</h2>
+					<p>
+						Hi! I’m Santiago Villanueva, and I’m a developer who has
+						passion for building clean web applications with
+						intuitive functionality. I enjoy the process of turning
+						ideas into reality using creative solutions. I’m always
+						curious about learning new skills, tools, and concepts.
+						In addition to working on various solo full stack
+						projects, I have worked with creative teams, which
+						involves daily stand-ups and communications, source
+						control, and project management.
+					</p>
+				</div>
+			</section>
+			<section id="skills" class="skills-section">
+				<div class="skills-info text-box">
+					<span class="subtitle">my skills</span>
+					<h2>What My Programming Skills Included?</h2>
+					<p>
+						I develop simple, intuitive and responsive user
+						interface that helps users get things done with less
+						effort and time with those technologies.
+					</p>
+				</div>
+				<ul class="skills-cards">
+					<li>
+						<img
+							title="HTML"
+							src="https://symbols.getvecta.com/stencil_25/35_html5.d4d8050235.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="React"
+							src="https://symbols.getvecta.com/stencil_25/70_react.76a8d36b4b.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="Redux"
+							src="https://symbols.getvecta.com/stencil_25/71_redux.da27ac619d.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="PostgreSQL"
+							src="https://symbols.getvecta.com/stencil_25/66_postgresql.e5a1e5edfc.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="NodeJS"
+							src="https://symbols.getvecta.com/stencil_25/61_nodejs.124d3fe0e1.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="jQuery"
+							src="https://symbols.getvecta.com/stencil_25/43_jquery.18209fdd44.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="JavaScript"
+							src="https://symbols.getvecta.com/stencil_25/39_javascript.0ca26ec4ab.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="CSS"
+							src="https://symbols.getvecta.com/stencil_25/14_css3.d930bfb832.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="D3"
+							src="https://symbols.getvecta.com/stencil_25/15_d3.f102dcfa16.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="Bootstrap"
+							src="https://symbols.getvecta.com/stencil_25/5_bootstrap.bbf5d3d59c.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="Webpack"
+							src="https://symbols.getvecta.com/stencil_25/88_webpack.4b175e738b.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="Sass"
+							src="https://symbols.getvecta.com/stencil_25/75_sass.57898c574e.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="MongoDB"
+							src="https://symbols.getvecta.com/stencil_261/25_mongodb.cef7d00b8a.svg"
+						/>
+					</li>
+					<li>
+						<img
+							title="Sequelize"
+							src="https://symbols.getvecta.com/stencil_261/45_sequelize.7e233926cd.svg"
+						/>
+					</li>
+				</ul>
+			</section>
+			<section id="projects" class="projects-container">
+				<div class="projects-info text-box">
+					<span class="subtitle">works</span>
+					<h2>These are some of My Projects</h2>
+					<p>Projects made with HTML CSS and Jquery</p>
+				</div>
+
+				<ul class="projects-items">
+					<div class="toggle-button-cover">
+						<div class="button-cover">
+							<div class="button r" id="button-1">
+								<input
+									type="checkbox"
+									class="checkbox"
+									onclick="toggleDesignResponsive()"
+								/>
+								<div
+									class="knobs material-icons-outlined"
+								></div>
+								<div class="layer"></div>
+							</div>
+						</div>
+					</div>
+					<li>
+						<a href="">
+							<img
+								id="responsive"
+								class="projects-img"
+								src="./src/documentation.png"
+							/>
+							<h2 class="project-tile">Documentation</h2>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img
+								class="projects-img"
+								src="./src/ecommerce.png"
+							/>
+							<h2 class="project-tile">Landing Page Ecommerce</h2>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img
+								class="projects-img"
+								src="./src/form-survey.png"
+							/>
+							<h2 class="project-tile">Form Survey</h2>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img
+								class="projects-img"
+								src="./src/tribute-page.png"
+							/>
+							<h2 class="project-tile">Tribute Page</h2>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section id="contact" class="contact-section">
+				<div>
+					<div class="contact-info text-box">
+						<span class="subtitle">contact</span>
+						<h2>Have You Any Project? Please Drop a Message</h2>
+						<p>
+							Get in touch and let me know how i can help. Fill
+							out the form and i’ll be in touch as soon as
+							possible.
+						</p>
+					</div>
+					<ul class="contact">
+						<li>
+							<span class="material-icons-outlined">phone</span>
+							<div>
+								<strong>Phone:</strong>
+								<ul>
+									<li>
+										<a href="tel:+542202529223"
+											>+54 2202 52 9223</a
+										>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<span class="material-icons-outlined">mail</span>
+							<div>
+								<strong>Email:</strong>
+								<ul>
+									<li>
+										<a
+											href="mailto:santiagovillanuevaariel@gmail.com"
+											>santiagovillanuevaariel@gmail.com</a
+										>
+									</li>
+									<li>
+										<a
+											href="mailto:santiago.villanueva.ariel@hotmail.com"
+											>santiago.ariel.villanueva@hotmail.com</a
+										>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<form id="form" class="form-container">
+					<div class="group">
+						<label>Name</label>
+						<div class="input-icons">
+							<input
+								type="text"
+								name="name"
+								placeholder="e.g. John Doe"
+							/><i class="fa fa-user-circle prefix-icon"></i>
+						</div>
+					</div>
+					<div class="group">
+						<label>Email</label>
+						<div class="input-icons">
+							<input
+								type="email"
+								inputmode="email"
+								name="email"
+								placeholder="e.g. john.doe@gmail.com"
+							/><i class="fa fa-envelope prefix-icon"></i>
+						</div>
+					</div>
+					<div class="group">
+						<label
+							>Phone
+							<span class="optional">(Optional)</span></label
+						>
+						<div class="input-icons">
+							<input
+								type="tel"
+								inputmode="tel"
+								name="phone"
+								placeholder="Phone Number"
+							/><i class="fa fa-phone prefix-icon"></i>
+						</div>
+					</div>
+					<div class="group">
+						<label>Message</label>
+						<div class="input-icons">
+							<textarea
+								name="message"
+								placeholder="Write message..."
+							></textarea
+							><i class="fa fa-comments prefix-icon"></i>
+						</div>
+					</div>
+
+					<div class="input-icons">
+						<button class="submit-btn btn btn-dark" type="button">
+							Send
+						</button>
+					</div>
+				</form>
+			</section>
+		</main>
+		<footer class="footer-container">
+			<div title="My Portfolio" class="logo">
+				<h1>
+					<a href="#welcome-section"
+						>sv.<span class="optional">(2021)</span></a
+					>
+				</h1>
+			</div>
+			<ul class="social">
+				<li>
+					<a
+						target="_blank"
+						href="https://www.linkedin.com/in/santiagovillanuevaariel98/"
+						><i class="fab fa-linkedin-in"></i
+					></a>
+				</li>
+				<li>
+					<a
+						id="profile-link"
+						target="_blank"
+						href="https://github.com/santiagoariel98/"
+						><i class="fab fa-github"></i
+					></a>
+				</li>
+				<li>
+					<a
+						id="profile-link"
+						target="_blank"
+						href="https://api.whatsapp.com/send?phone=542202529223&text=Hi%20Santiago%2C%20I%27m%20interested%20in%20talking%20to%20you%F0%9F%98%81%F0%9F%98%81"
+						><i class="fab fa-whatsapp"></i
+					></a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
